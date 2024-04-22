@@ -1,1 +1,46 @@
-
+<html>
+    <body>
+        <fieldset>
+            <legend>General Information </legend>
+                <label for= "Arrival date"> Arrival date: </label>
+                <input type="text" id = "Arrival date" name = "Arrival date"> <br>
+                <label for="Nights"> Nights: </label>
+                <input type="text" id = "Nights" name = "Nights"> <br>
+                Adults:
+                    <select name="Adults">
+                        <option selected value="1"> 1 </option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                <br>
+                Children: 
+                    <select name="Children">
+                        <option selected value="0">0</option>
+                        <option value="1"> 1 </option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>        
+        </fieldset>
+        <fieldset> 
+            <legend> Preferences </legend>
+            Room type: 
+            <input type="radio" name ="s1" value="Standard" checked > Standard 
+            <input type="radio" name ="s1" value="Business"> Business
+            <input type="radio" name ="s1" value="Suite"> Suite <br>
+            Bed type: 
+            <input type="radio" name ="s2" value="King" checked> King 
+            <input type="radio" name ="s2" value="Double Double"> Double Double <br>
+            <input type="checkbox" name = "s3" value="Smoking"> Smoking 
+        </fieldset>
+        <fieldset>
+            <legend> Contact Information</legend>
+            <label for="Name"> Name: </label>
+            <input type="text" id = "Name" name = "Name"> <br>
+            <label for="Email"> Email: </label>
+            <input type="text" id = "Email" name = "Email"> <br>
+            <label for="Phone"> Phone: </label>
+            <input type="text" id = "Phone" name = "Phone"> <br>
+        </fieldset> 
+        <input type="submit" value="Submic Reservation">
+    </body>
+</html>
