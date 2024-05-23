@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tính tổng tiền</title>
+    <meta charset="UTF-8">
+</head>
+<script>
+    function TinhTong() {
+        var soLuong = document.querySelector('#SoLuong').value;
+        var donGia = document.querySelector('#DonGia').value;
+        var thanhtien = soLuong * donGia;
+        document.querySelector('#ThanhTien').value = thanhtien;
+    }
+</script>
+<body style="font-family: Arial; background-color: lavender;">
+    <h1>Bạn hãy nhập vào số lượng và giá:</h1>
+    Số lượng: <input id="SoLuong" onKeyUp="TinhTong();">
+    Đơn giá: <input id="DonGia" onKeyUp="TinhTong();">
+    <hr />
+    Thành tiền: <input id="ThanhTien" > USD
+</body>
+</html>
