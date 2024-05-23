@@ -1,0 +1,22 @@
+<html>
+<head> 
+
+</head>
+<body>
+<script language="JavaScript">
+function DoiMau() {
+ document.bgColor = frm.Mau.value;
+ // Hoặc viết: window.document.bgColor = frm.Mau.value;
+}
+</script>
+Bạn hãy chọn màu nền:
+<form name="frm">
+    <select name="Mau" onchange="DoiMau();" >
+        <option value="red">Màu đỏ</option>
+        <option value="blue">Màu xanh</option>
+        <option value="brown">Màu nâu</option>
+        <option value="lavender">Màu xanh nhạt</option>
+    </select> 
+</form>
+</body>
+</html>
